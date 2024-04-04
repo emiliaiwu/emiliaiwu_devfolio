@@ -1,4 +1,15 @@
-import { appearance, devvify, heroImg, library, maveli, millie, profile, projectDashboard, projectManagement, task } from "../assets";
+import {
+	appearance,
+	devvify,
+	heroImg,
+	library,
+	maveli,
+	millie,
+	profile,
+	projectDashboard,
+	projectManagement,
+	task,
+} from "../assets";
 
 export function Instagram(props) {
 	return (
@@ -167,7 +178,7 @@ export const projectData = [
 		image: millie,
 		title: "My Portfolio ",
 		description:
-			"Creating a job application manager can be a valuable project for both job seekers and recruiters. Here's an outline of features and functionalities you could include:",
+			"I crafted a responsive, interactive, and visually appealing website personal portfolio. With React.js, I organized the project into reusable components, Tailwind CSS streamlined styling with its utility-first approach, and Framer Motion added smooth animations and transitions. ",
 		url: "https://emiliacodes.com",
 		hasCaseStudy: false,
 		caseStudyLink: "",
@@ -217,14 +228,6 @@ export const socialLinks = [
 		icon: Threads,
 		url: "https://www.threads.net/emiliacodes/",
 		title: "Threads",
-	},
-];
-
-export const experiences = [
-	{
-		year: "2023",
-		role: "Front-end Developer Intern",
-		company: "AutoMedSys Limited.",
 	},
 ];
 
@@ -289,8 +292,6 @@ export const casestudies = [
 					"Personalize your workspace to match your style. Experiment with different styles, colors, fonts, and modes to create an environment that enhances your creativity and focus.",
 				image: appearance,
 			},
-
-			
 		],
 	},
 ];

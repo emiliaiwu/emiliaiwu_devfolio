@@ -34,9 +34,9 @@ const Aboutt = () => {
 				</div>
 				<div className='w-full h-full lg:w-[55%] flex justify-center items-center self-center'>
 					<div className='flex flex-col justify-center w-full max-w-[450px] xxl:max-w-[600px] xl:max-w-[530px] px-6 lg:px-0 md:max-w-[600px] xl:gap-4 '>
-						<div className='xl:text-7xl xxl:text-8xl text-4xl ss:text-5xl sm:text-6xl font-semibold lg:sticky top-20 lg:h-24 bg-lightBeige opacity-100'>
+						<div className='xl:text-7xl xxl:text-8xl text-5xl ss:text-5xl sm:text-6xl font-semibold lg:sticky top-20 lg:h-24 bg-lightBeige opacity-100'>
 							<ScrollAnimation>
-								<h1 className='bg-lightBeige lg:h-24 z-50'>ABOUT ME</h1>
+								<h1 className='bg-lightBeige lg:h-24 z-50 mt-2'>ABOUT ME</h1>
 							</ScrollAnimation>
 						</div>
 

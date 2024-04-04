@@ -7,10 +7,13 @@ import ScrollAnimation from "./ScrollAnimation";
 const Contact = () => {
 	const [isHovered, setIsHovered] = useState(false);
 	return (
-		<section id="contact" className=' bg-lightBeige font-Source max-w-full w-full flex lg:justify-end justify-center items-center z-[9] sticky flex-col min-h-full lg:py-40'>
+		<section
+			id='contact'
+			className=' bg-lightBeige font-Source max-w-full w-full flex lg:justify-end justify-center items-center z-[9] sticky flex-col min-h-full lg:py-40'
+		>
 			<div className='flex flex-col justify-center items-center lg:items-start gap-20 w-full h-full max-w-[1550px] px-6 xxl:px-0'>
 				<div className='flex justify-center items-center'>
-					<div className='xl:text-[150px] xxl:text-[180px] text-5xl xs:text-6xl ss:text-7xl sm:text-8xl lg:text-9xl uppercase flex flex-col gap-2 justify-center'>
+					<div className='xl:text-[150px] xxl:text-[180px] text-5xl xs:text-6xl ss:text-7xl sm:text-8xl lg:text-9xl uppercase flex flex-col gap-2 justify-center font-semibold'>
 						<ScrollAnimation>
 							<span>Let&#39;s Work</span>{" "}
 						</ScrollAnimation>

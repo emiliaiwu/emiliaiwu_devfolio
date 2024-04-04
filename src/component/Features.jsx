@@ -19,6 +19,7 @@ const Features = ({ features }) => {
 										src={item.image}
 										className='w-full h-full object-contain'
 										loading='lazy'
+										alt="features image"
 									/>
 								</div>
 							</ScrollAnimation>

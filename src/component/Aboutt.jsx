@@ -19,6 +19,7 @@ const Aboutt = () => {
 								src={emilia}
 								className='w-full h-full object-cover'
 								loading='lazy'
+								alt="Emilia iwu's picture"
 							/>
 						</div>
 					</ScrollAnimation>

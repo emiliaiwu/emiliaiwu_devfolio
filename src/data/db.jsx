@@ -231,6 +231,7 @@ export const experiences = [
 export const casestudies = [
 	{
 		title: "Devvie: Portfolio Project Management App",
+		index: "0",
 		url: "https://devvie.netlify.app",
 		slug: "devvie-app",
 		image: heroImg,

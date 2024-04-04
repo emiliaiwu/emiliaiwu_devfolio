@@ -22,7 +22,7 @@ const Heroo = () => {
 	return (
 		<section className='py-20 md:pt-20 md:pb-10 pb-32 bg-lightBeige max-w-full w-full h-[100vh] flex justify-center items-center sticky z-[1] top-0'>
 			<div className='flex justify-center items-center flex-col w-full xl:max-w-[1180px] xxl:max-w-[1450px]  xxl:gap-16 gap-10 xl:gap-4 h-full xl:mt-20 fixed'>
-				<div className='xl:max-w-[1140px] max-w-[720px] xxl:max-w-[1450px] w-full md:px-3 flex flex-row justify-between items-center px-6 gap-20'>
+				<div className='xl:max-w-[1140px] max-w-[720px] xxl:max-w-[1450px] w-full md:px-3 flex flex-row justify-between items-center px-6 xs:gap-20'>
 					<motion.p className='text-xl font-semibold font-Source tracking-tight w-full flex flex-row items-center h-6 overflow-hidden text-blacky'>
 						<motion.div
 							className='mr-1 overflow-hidden'

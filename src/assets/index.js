@@ -1,0 +1,14 @@
+import emilia from "./emilia.png";
+import fixedBg from "./bg.png";
+import pen from "./pen.png";
+import maveli from "./maveli.png";
+import devvify from "./devvify.png";
+import millie from "./millie.png";
+import heroImg from "./Screenshot1.png";
+import projectDashboard from './Screenshot.png';
+import projectManagement from "./management.png";
+import task from "./task.png";
+import library from "./library.png";
+import profile from "./profile.png";
+import appearance from "./appear.png";
+export { emilia, fixedBg, pen, maveli, devvify, millie, heroImg, projectDashboard, projectManagement, profile, appearance, library, task };

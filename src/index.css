@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "IvyOra";
+	src: url("./assets/font/IvyOraDisplay-Light.ttf") format("truetype"),
+		url("./assets/font/IvyOraDisplay-LightItalic.ttf") format("truetype"),
+		url("./assets/font/IvyOraDisplay-Regular.ttf") format("truetype"),
+		url("./assets/font/IvyOraDisplay-RegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "IvyOra Display";
+	src: local("IvyOra Display Light Italic"),
+		local("IvyOra-Display-Light-Italic"),
+		url("./assets/font/IvyOraDisplay-LightItalic.woff2") format("woff2"),
+		url("./assets/font/IvyOraDisplay-LightItalic.woff") format("woff"),
+		url("./assets/font/IvyOraDisplay-LightItalic.ttf") format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "IvyLight";
+	src: url("./assets/font/IvyOraDisplay-Light.ttf") format("truetype"),
+		url("./assets/font/IvyOraDisplay-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "SloopScript";
+	src: url("./assets/font/sloopscript.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "ArialNeue";
+	src: url("./assets/font/ArialNeue.otf") format("opentype");
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.root {
+	max-width: 100vw;
+	height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
+	white-space: nowrap;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* EDITS */
+.glass {
+	background: rgba(255, 247, 227, 0.1);
+	border-radius: 100px;
+	box-shadow: rgba(65, 68, 32, 0.1) 0px 4px 4px 0px;
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(5px);
+}
+
+.circle2 {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	position: relative;
+	background: "#7BF909";
+	box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.circle2::after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+	0% {
+		box-shadow: 0 0 0 0px rgb(22 163 74);
+		opacity: 0;
+	}
+	100% {
+		box-shadow: 0 0 0 9px rgb(22 163 74);
+		opacity: 30%;
+	}
+}
+
+.bar {
+	width: 40px;
+	height: 30px;
+}
+
+.bar div {
+	width: 100%;
+	height: 2px;
+	background: black;
+}
+
+.bar div:first-child {
+	width: 80%;
+	height: 2px;
+}
+
+.fixed-background {
+	background-image: url("./assets/bg.png");
+	min-height: 100vh;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.jump {
+	position: absolute;
+	top: 0;
+	right: 18%;
+	animation: moveDown 2s linear infinite;
+}
+
+@keyframes moveDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(200%);
+	}
+}
+
+
+
+/* Rotating */
+
+
+.rotating {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

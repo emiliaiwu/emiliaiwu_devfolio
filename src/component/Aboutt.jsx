@@ -61,8 +61,12 @@ const Aboutt = () => {
 							<ScrollAnimation>
 								<p className='w-full  whitespace-normal font-Source tracking-tight'>
 									A project, I built I'm particularly proud of is{" "}
-									<Link>
-										<strong className='font-semibold'>Devvify.com,</strong>
+									<Link
+										to="https://devvie.netlify.app"
+										target='_blank'
+										className='hover:underline cursor-pointer font-bold'
+									>
+										Devvie App,
 									</Link>{" "}
 									a project management tool designed to help new developers
 									track, manage, and showcase their projects. This project

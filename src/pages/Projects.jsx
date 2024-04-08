@@ -69,10 +69,14 @@ const Projects = () => {
 													<div>
 														<h2 className='text-2xl font-Poppins font-medium tracking-tight flex flex-row gap-6 mb-4'>
 															{project.title}
-															<ArrowButton url={project.url} index={index} isNearTop={true}/>
+															<ArrowButton
+																url={project.url}
+																index={index}
+																isNearTop={true}
+															/>
 														</h2>
 
-														<p className='whitespace-normal text-sm lg:text-base'>
+														<p className='whitespace-normal text-sm lg:text-base leading-6 lg:leading-7 '>
 															{project.description}
 														</p>
 													</div>

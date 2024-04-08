@@ -87,7 +87,7 @@ const Projects = () => {
 												</h2>
 											</ScrollAnimation>{" "}
 											<ScrollAnimation>
-												<p className='whitespace-normal w-full font-Source text-base lg:text-lg font-light max-w-[500px]'>
+												<p className='whitespace-normal w-full font-Source text-base lg:text-lg leading-7 lg:leading-8 font-light max-w-[500px]'>
 													{project.description}
 												</p>
 											</ScrollAnimation>

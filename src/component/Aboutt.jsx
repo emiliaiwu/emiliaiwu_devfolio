@@ -10,7 +10,7 @@ const Aboutt = () => {
 			className='w-full min-h-[100vh] py-20  mx-auto bg-lightBeige overflow-y-visible flex justify-center items-center z-[5] sticky'
 		>
 			<div
-				className={`flex flex-col justify-center w-full h-full gap-10 max-w-[1550px] lg:flex-row xl:px-6 xxl:px-0`}
+				className={`flex flex-col justify-center w-full h-full gap-20 lg:gap-10 max-w-[1550px] lg:flex-row xl:px-6 xxl:px-0`}
 			>
 				<div className='w-full lg:w-[45%] flex flex-col justify-center items-center left-0 h-full lg:sticky top-20 relative'>
 					<ScrollAnimation>
@@ -24,9 +24,9 @@ const Aboutt = () => {
 						</div>
 					</ScrollAnimation>
 
-					<div className='w-full mt-3'>
+					<div className='w-full mt-3 '>
 						<ScrollAnimation>
-							<h1 className='font-Source lg:text-2xl text-lg sm:text-xl tracking-tight whitespace-normal lg:text-left xl:text-3xl text-center'>
+							<h1 className='font-Source lg:text-2xl text-lg sm:text-xl tracking-tight whitespace-normal lg:text-left xl:text-3xl text-center hidden lg:flex'>
 								Emilia Iwu — Front-end Developer.
 							</h1>
 						</ScrollAnimation>
@@ -34,13 +34,13 @@ const Aboutt = () => {
 				</div>
 				<div className='w-full h-full lg:w-[55%] flex justify-center items-center self-center'>
 					<div className='flex flex-col justify-center w-full max-w-[450px] xxl:max-w-[600px] xl:max-w-[530px] px-6 lg:px-0 md:max-w-[600px] xl:gap-4 '>
-						<div className='xl:text-7xl xxl:text-8xl text-5xl ss:text-5xl sm:text-6xl font-semibold lg:sticky top-20 lg:h-24 bg-lightBeige opacity-100'>
+						<div className='xl:text-7xl xxl:text-8xl text-5xl ss:text-5xl sm:text-6xl font-semibold lg:sticky lg:top-20 lg:h-24 bg-lightBeige opacity-100'>
 							<ScrollAnimation>
 								<h1 className='bg-lightBeige lg:h-24 z-50 mt-2'>ABOUT ME</h1>
 							</ScrollAnimation>
 						</div>
 
-						<div className='flex flex-col gap-6 justify-center items-center text-black xl:text-lg md:text-base  md:leading-6 xl:leading-7 font-light mt-8 z-[-1]'>
+						<div className='flex flex-col gap-6 justify-center items-center text-black xl:text-lg md:text-base  md:leading-6 xl:leading-7 font-light lg:mt-8 z-[-1] mt-4'>
 							<ScrollAnimation>
 								<p className='w-full  whitespace-normal font-Source tracking-tight'>
 									Hello, my name is Emilia Iwu, and I am based in Nigeria. I

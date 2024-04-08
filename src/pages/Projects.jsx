@@ -60,12 +60,12 @@ const Projects = () => {
 							{filteredProjects.map((project, index) => (
 								<li key={index} className='flex md:flex-row flex-col '>
 									<ScrollAnimation>
-										<div className='flex md:flex-row flex-col md:h-full lg:h-[300px] xl:h-[350px] xxl:h-[400px] border-t border-blacky py-10'>
+										<div className='flex md:flex-row flex-col md:h-full lg:min-h-[300px] xl:min-h-[350px] xxl:min-h-[400px] border-t border-blacky py-10'>
 											<div className='w-1/3 text-lg sm:text-2xl lg:text-4xl font-bold text-blacky'>
 												({index + 1})
 											</div>{" "}
-											<div className='md:w-2/3 w-full flex gap-6 justify-between lg:flex-row flex-col'>
-												<div className='md:max-w-[300px] lg:max-w-[300px] xl:max-w-[380px] flex flex-col justify-between gap-6'>
+											<div className='md:w-2/3 w-full flex gap-6 justify-between xl:flex-row flex-col'>
+												<div className='md:max-w-[400px] lg:max-w-[500px] xl:max-w-[420px] flex flex-col justify-between gap-6'>
 													<div>
 														<h2 className='text-2xl font-Poppins font-medium tracking-tight flex flex-row gap-6 mb-4'>
 															{project.title}
@@ -76,7 +76,7 @@ const Projects = () => {
 															/>
 														</h2>
 
-														<p className='whitespace-normal text-sm lg:text-base leading-6 lg:leading-7 '>
+														<p className='whitespace-normal text-base leading-7  '>
 															{project.description}
 														</p>
 													</div>
@@ -113,7 +113,7 @@ const Projects = () => {
 														)}
 													</div>
 												</div>
-												<div className='flex flex-col justify-between gap-6 md:w-[300px] lg:w-[300px] xl:w-[380px] xxl:w-[420px] h-full w-full'>
+												<div className='flex flex-col justify-between gap-6 md:w-[400px] lg:w-[500px]  xl:w-[380px] xxl:w-[420px] h-full w-full'>
 													<div className='w-full h-full'>
 														<img
 															src={project.image}

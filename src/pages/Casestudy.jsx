@@ -5,12 +5,16 @@ import Features from "../component/Features";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "../component/ScrollAnimation";
 import ArrowButton from "../component/ArrowButton";
+import NotFound from "./NotFound";
 
 const Casestudy = () => {
 	const { slug } = useParams();
 	window.scrollTo({ top: 0, behavior: "smooth" });
 
 	const casestudy = casestudies.find((casestudy) => casestudy.slug === slug);
+	if (!casestudy) {
+		return <NotFound />;
+	}
 	const {
 		title,
 		description,
@@ -22,7 +26,7 @@ const Casestudy = () => {
 		timeline,
 		features,
 		url,
-		index
+		index,
 	} = casestudy;
 
 	return (

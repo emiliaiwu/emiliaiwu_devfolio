@@ -193,10 +193,11 @@ export const myTechStack = [
 	"JavaScript",
 	"TypeScript",
 	"Next JS",
-	"HTML",
-	"CSS",
+	"HTML5",
+	"CSS3",
 	"Tailwind CSS",
 	"Node JS",
+	"Material UI"
 ];
 
 export const socialLinks = [
